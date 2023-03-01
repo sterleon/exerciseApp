@@ -154,6 +154,8 @@ import Workout from './components/Workout.vue'
           exercises: []
           }]
           this.state = null
+          this.newWorkout.title = ''
+          this.newWorkout.date = ''
         }
       },
       handleWorkoutClick(i) {
@@ -172,6 +174,10 @@ import Workout from './components/Workout.vue'
           }
         ]
         this.state = 'workout'
+        this.newExercise.name = ''
+        this.newExercise.sets = ''
+        this.newExercise.reps = ''
+        this.newExercise.weight = ''
       }
     }
   }
