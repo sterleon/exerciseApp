@@ -16,7 +16,7 @@ import Workout from './components/Workout.vue'
               <Workout @click="handleWorkoutClick(index)" v-bind:workoutObj="workout" />
             </div>
           </div>
-          <div class="form-control mt-6">
+          <div class="form-control">
             <button @click="this.state = 'add'" class="btn btn-secondary">Add New</button>
           </div>
         </div>
